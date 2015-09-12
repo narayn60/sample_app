@@ -12,3 +12,6 @@
 !/log/.keep
 /tmp
 database.yml
+
+# Ignore spring files
+spring/*.pid
