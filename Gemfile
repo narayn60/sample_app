@@ -5,6 +5,9 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.4'
 gem 'bootstrap-sass', '~> 3.3.5'
 gem 'faker', '1.4.2'
+gem 'carrierwave', '0.10.0'
+gem 'mini_magick', '3.8.0'
+gem 'fog', '1.26.0'
 gem 'will_paginate', '3.0.7'
 gem 'bootstrap-will_paginate', '0.0.10'
 # Use postgresql as the database for Active Record
@@ -53,6 +56,7 @@ group :test do
   gem 'minitest-reporters', '1.0.5'
   gem 'mini_backtrace',     '0.1.3'
   gem 'guard-minitest',     '2.3.1'
+  gem 'better_errors'
 end
 
 group :prodcution do
